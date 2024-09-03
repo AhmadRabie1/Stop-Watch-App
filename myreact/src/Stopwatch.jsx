@@ -22,7 +22,8 @@ function Stopwatch() {
     }
 
     function reset() {
-
+        setElapsedTime(0);
+        setIsRunning(false);
     }
 
     function formatTime() {
